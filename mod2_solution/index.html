@@ -11,7 +11,6 @@
   font-family: Times New Roman;
   box-sizing: border-box;
 }
-  
 h1 {
   margin-bottom: 15px;
   margin-right:2px;
@@ -24,8 +23,8 @@ span{
 }
 
 section {
-  outline-color: black;
-  border:1px black solid;
+  outline-color: white;
+  border:1px white;
   padding:10px;
   padding-top:50px;
   width:8.33%;
@@ -39,6 +38,10 @@ section {
   margin-right:2px;
 }
 
+div.container > section {
+  border:solid black;
+}
+
 p {
   border:2px solid black;
   background-color:grey;
@@ -50,6 +53,8 @@ p {
   color:black;
   text-align:center;
   font-stretch: 100%;
+  border:grey;
+  font-weight:bold;
 }
 section > span > p {
   padding-top:7px;
@@ -63,23 +68,23 @@ section > span > p {
 }
 span{
   position:absolute;
-  top:-20px;
-  right:0px;
+  top:-21px;
+  right:-1px;
 }
 span .head1{
   width:143px;
   height:40px;
-  background-color: pink;
+  background-color:orange;
   }
 span .head2{
-  background-color:maroon;
+  background-color:purple;
   width:143px;
   height:40px;
   color:white;
   font-weight:bold;
 }
 span .head3{
-  background-color:lightyellow;
+  background-color:pink;
   width:143px;
   height:40px;
 }
